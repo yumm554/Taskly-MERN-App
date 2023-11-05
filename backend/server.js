@@ -8,7 +8,7 @@ const cors = require('cors');
 const corsOptions = {
   origin: [
     'https://task-management-app-931f.onrender.com',
-    'https://taskly-1t37.onrender.com/',
+    'https://taskly-1t37.onrender.com',
   ],
 };
 
