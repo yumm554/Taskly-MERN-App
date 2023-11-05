@@ -6,7 +6,10 @@ const PORT = process.env.PORT || '3001';
 require('dotenv').config();
 const cors = require('cors');
 const corsOptions = {
-  origin: 'https://task-management-app-931f.onrender.com',
+  origin: [
+    'https://task-management-app-931f.onrender.com',
+    'https://taskly-1t37.onrender.com/',
+  ],
 };
 
 dbConnect();
